@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guitar Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <img src="img/logo2.png" style="width:50px;" />
+        <div class="logo"></div>
+        <nav class="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#Catalog">Catalog</a>
+            <a href="newsproduct.html">New Products</a>
+            <a href="#Store">Store Info</a>
+            <a href="buyingguide.html">Buying Guide</a>
+            <a href="#newsletter">Newsletter</a>
+        </nav>
+    </header>
+    <hr class="divider" />
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Find Your<br>Perfect Guitar<br>Today</h1>
+            <button class="catalog-toggle" onclick="location.href='#Catalog'">
+                Select in the catalog
+                <span class="arrow-icon">↗</span>
+            </button>
+        </div>
+        <div class="hero-image">
+            <img src="../ProjectWebMy/img/gambarhl.png" style="width:90%;" alt="Guitar" />
+        </div>
+    </section>
+
+    <!-- BROWSE SECTION -->
+    <section class="browse">
+        <div class="catalog-header">
+            <h1>Browse</h1>
+            <a href="guitarcatalog.html" class="view-all">
+                (View All)
+                <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/circled-down-left-2.png" alt="circled-down-left-2"/>
+            </a>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="img/gambar1.jpg" alt="Explore Categories">
+                <p>Explore Categories</p>
+            </div>
+            <div class="card">
+                <img src="img/gambar2.jpg" alt="New Arrivals">
+                <p>New Arrivals</p>
+            </div>
+            <div class="card">
+                <img src="img/gambar3.jpg" alt="Stay Updated">
+                <p>Stay Updated</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- GUITAR CATALOG SECTION -->
+<main class="catalog" id="Catalog">
+    <div class="catalog-header">
+        <h1>Guitar Catalog</h1>
+        <a href="guitarcatalog.html" class="view-all">
+            (View All)
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/circled-down-left-2.png" alt="circled-down-left-2"/>
+        </a>
+    </div>
+
+    <div class="catalog-grid">
+        <a href="Listakustik.html" class="catalog-item">
+            <img src="img/gitarakustik.png" alt="Acoustic Guitar" />
+            <p>Acoustic Guitar</p>
+        </a>
+        <a href="Listelectric.html" class="catalog-item">
+            <img src="img/electrikk.png" alt="Electric Guitar" />
+            <p>Electric Guitar</p>
+        </a>
+        <a href="Listaksesoris.html" class="catalog-item">
+            <img src="img/guitarparts.png" alt="Guitar Accessories" />
+            <p>Guitar Accessories</p>
+        </a>
+    </div>
+</main>
+
+
+    <!-- STORE INFO SECTION -->
+    <section class="about" id="Store">
+        <h2>About Our Store</h2>
+        <hr class="divider" /><br />
+        <div class="about-content">
+            <img src="img/maps1.jpg" alt="Map Location">
+            <div class="about-text">
+                <h3>Location</h3>
+                <p>Lot 3A, Jalan PJU 7/3, Mutiara Damansara, 47800 Petaling Jaya, Selangor, Malaysia</p><br />
+
+                <h3>Operating Hour</h3>
+                <p>Open Monday – Saturday | 09:00 – 18:00</p><br />
+
+                <h3>History</h3>
+                <p>HarmonyTone Music Sdn. Bhd. was established in 2010 by a group of passionate musicians and guitar lovers in Kuala Lumpur, Malaysia. Originally starting as a small independent guitar shop, the company has grown into one of the most recognized retailers and distributors of guitars and music accessories in Southeast Asia.</p>
+                <br />
+                <p>Driven by the belief that music is a universal language and a lifelong hobby, HarmonyTone focuses on curating the best selection of acoustic, electric, and classical guitars to inspire both beginners and professional musicians alike. The store's founders envisioned a place where anyone—from school students to touring artists—could find not only quality instruments but also community, support, and education.</p>
+                <br />
+                <p>The brand’s motto, “Strum Your Story,” reflects its commitment to helping musicians express themselves through the strings of a guitar. Today, HarmonyTone also offers workshops, jam sessions, and guitar maintenance services, and supports local music festivals and school music programs across Malaysia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="newsletter" id="newsletter">
+        <div class="newsletter-left">
+          <h2>Stay in Tune<br>with Us</h2>
+          <p>
+            Join our newsletter and never miss out on the latest guitars, accessories, and exclusive offers.
+            Be the first to discover new arrivals and expert tips!
+          </p>
+        </div>
+        <div class="newsletter-right">
+          <div class="form-card">
+            <div class="form-icon">
+              <img src="img/logoorang.png" alt="User Icon" />
+            </div>
+            <form>
+              <input type="email" placeholder="Enter your email address" required />
+              <button type="submit">Subscribe Now</button>
+              <small>Get the latest updates and exclusive offers straight to your inbox.</small>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <hr class="footer-line" />
+        <div class="footer-container">
+          <div class="footer-brand">
+            <div class="brand-logo-text">
+              <img src="img/logo3.png" alt="HarmonyTone Logo" class="footer-logo" />
+              <h2>Harmony<span>Tone</span></h2>
+            </div>
+            <div class="footer-socials">
+              <a href="#"><img width="60" height="60" src="https://img.icons8.com/ios-glyphs/60/facebook-new.png" alt="facebook-new"/></a>
+              <a href="#"><img width="60" height="60" src="https://img.icons8.com/ios-glyphs/60/linkedin.png" alt="linkedin"/></a>
+              <a href="#"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/youtube-play.png" alt="youtube-play"/></a>
+              <a href="#"><img width="60" height="60" src="https://img.icons8.com/ios-glyphs/60/instagram-new.png" alt="instagram-new"/></a>
+            </div>
+          </div>
+      
+          <div class="footer-links">
+            <div class="link-column">
+              <h4>Page</h4>
+              <a href="#home">Home</a>
+              <a href="#Catalog">Catalog</a>
+              <a href="newsproduct.html">New Product</a>
+            </div>
+            <div class="link-column">
+              <h4>Page</h4>
+              <a href="#Store">Store Info</a>
+              <a href="buyingguide.html">Buying Guide</a>
+              <a href="#newsletter">Newsletter</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="js/slider.js"></script>
+</body>
+</html>

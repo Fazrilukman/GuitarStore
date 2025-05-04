@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-menu {
+    margin-left: auto;
+}
+
+.nav-menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+  
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+  }
+  
+  main {
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 40px 20px;
+    border: 1px solid #ccc;
+  }
+  
+  main h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+  }
+  
+  .item {
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .item img {
+    background-image: url('../img/texture-bg.png'); /* tambahkan background motif */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+  }
+  
+  .item p {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 10px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  /*FOOTER*/
+ .footer {
+    background-color: #000;
+    color: white;
+    padding: 40px 60px;
+  }
+  
+  .footer-line {
+    border: none;
+    border-top: 1px solid #555;
+    margin-bottom: 30px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .footer-brand {
+    flex: 1;
+    min-width: 260px;
+  }
+  
+  .brand-logo-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer-logo {
+    width: 40px;
+    height: auto;
+  }
+  
+  .footer-brand h2 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .footer-brand h2 span {
+    font-weight: 400;
+    color: #ccc;
+  }
+  
+  .footer-socials {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-socials a img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    opacity: 0.8;
+    transition: 0.3s ease;
+  }
+  
+  .footer-socials a img:hover {
+    opacity: 1;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 80px;
+    flex: 2;
+    justify-content: flex-end;
+    min-width: 300px;
+  }
+  
+  .link-column h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .link-column a {
+    display: block;
+    margin-bottom: 8px;
+    color: #888;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  
+  .link-column a:hover {
+    color: #fff;
+  }
+
+  .hero {
+    position: relative;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+
+  
