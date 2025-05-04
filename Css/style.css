@@ -216,7 +216,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 60px 40px;
-    background: url('../img/Background1.jpg'); /* Ganti dengan background bergelombang jika ada */
+    background: url('img/Background1.jpg'); /* Ganti dengan background bergelombang jika ada */
     background-size: cover;
     background-position: center;
     flex-wrap: wrap;
