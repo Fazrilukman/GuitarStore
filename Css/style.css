@@ -106,57 +106,61 @@ body {
 
 
 /* BROWSE */
-.browse {
-    padding: 40px 20px;
-    background: white;
-}
-
-    .browse h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-
-.cards {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.card {
-    flex: 1 1 calc(33.33% - 20px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 10px;
+.new-products {
+    padding: 20px;
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .new-products h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #111;
+  }
+  
+  .product-banner {
+    border-radius: 8px;
     overflow: hidden;
-    background-color: #fff;
-    text-align: left;
-    transition: transform 0.3s ease;
-}
-
-    .card:hover {
-        transform: translateY(-5px);
-    }
-
-    .card img {
-        width: 100%;
-        height: 500px;
-        object-fit: cover;
-        display: block;
-    }
-
-    .card p {
-        padding: 15px;
-        font-size: 16px;
-        font-weight: bold;
-        margin: 0;
-    }
-
-.image-placeholder {
+    box-shadow: 0 0 0 1px #ddd;
+    background-color: white;
+  }
+  
+  .product-banner a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .product-banner img {
+    display: block;
     width: 100%;
-    height: 150px;
-    background: #ddd;
-    margin-bottom: 10px;
-}
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 0 0 8px 8px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+  
+  
+  
 
 /* CATALOG */
 .catalog {
